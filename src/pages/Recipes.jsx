@@ -4,7 +4,7 @@ import RecipeList from "../components/RecipeList";
 import { getRecipes } from "../services/api";
 
 const Recipes = () => {
-    const [searchedQuery, setSearchedQuery] = useState('pizza');
+    const [searchedQuery, setSearchedQuery] = useState('');
     const [recipes, setRecipes] = useState([]);
 
     useEffect(() => {

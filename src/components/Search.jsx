@@ -17,7 +17,7 @@ const Search = ({ setSearchedQuery }) => {
                 <h4>Input Recipes seperated by comma</h4>
                 <Form onSubmit={onFormSubmit}>
                     <Input 
-                        placeholder="tomato,potato,pizza"
+                        placeholder="tomato,potato,onion"
                         action={{ icon: 'search', color: 'blue' }}
                         onChange={(e) => setValue(e.target.value)}
                         value={value}
